@@ -355,15 +355,6 @@ input:not([type=submit]):not([type=file]):active,input:not([type=submit]):not([t
 }
 
 .wrapper {
-    height: 50%;
-    width: 100%;
-    position: relative;
-    background-color: #2b2b2b;
-    margin: 0 auto;
-    overflow: hidden;
-}
-
-.postwrapper {
     width: 90%;
     max-width: 760px;
     margin: 0 auto;
