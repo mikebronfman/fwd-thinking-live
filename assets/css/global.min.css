@@ -368,20 +368,11 @@ input:not([type=submit]):not([type=file]):active,input:not([type=submit]):not([t
     position: relative;
     background-color: #2b2b2b;
     overflow: hidden;
-}
-
-.wrapper .background {
-    position: absolute;
-    height: 100%;
-    width: 100%;
     top: 0;
     left: 0;
-    opacity: .6;
     background-position: fixed;
     background-image: url(http://fwdthinking.co/content/images/2014/Jun/Google_Glass_Explorer_Edition.jpeg);
 }
-
-
 
 .left {
     float: left;
