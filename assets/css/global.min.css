@@ -355,6 +355,15 @@ input:not([type=submit]):not([type=file]):active,input:not([type=submit]):not([t
 }
 
 .wrapper {
+    height: 50%;
+    width: 100%;
+    position: relative;
+    background-color: #2b2b2b;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.postwrapper {
     width: 90%;
     max-width: 760px;
     margin: 0 auto;
@@ -1035,103 +1044,6 @@ nav.wrapper {
         top: 25%;
     }
 }
-
-/* MIKE BRONFMAN CUSTOM LANDING PAGE COVER */
-
-.coverlanding {
-    display: none;
-    position: relative;
-    background-color: #2b2b2b;
-    background-image: -webkit-gradient(linear,50% 0,50% 100%,color-stop(0%,#2b2b2b),color-stop(100%,#000));
-    background-image: -webkit-linear-gradient(#2b2b2b,#000);
-    background-image: -moz-linear-gradient(#2b2b2b,#000);
-    background-image: -o-linear-gradient(#2b2b2b,#000);
-    background-image: linear-gradient(#2b2b2b,#000);
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-}
-
-.coverlanding .backgroundlanding {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    opacity: .6;
-    background-size: cover;
-    background-position: fixed;
-}
-
-.coverlanding.featuredlanding {
-    display: block;
-}
-
-.coverlanding header {
-    position: relative;
-    width: 90%;
-    top: 35%;
-    max-width: 760px;
-    left: auto;
-}
-
-.coverlanding header h2 {
-    font: 600 22px 'Open Sans',Serif;
-    color: #e4e4e4;
-    opacity: .6;
-}
-
-.coverlanding header h1 a {
-    color: #fff;
-    font: 700 1.7em Domine,Serif;
-    line-height: 86px;
-    text-shadow: 0 0 30px rgba(0,0,0,.8);
-    -webkit-transform3d: translate(0,0,0);
-    -moz-transform3d: translate(0,0,0);
-    transform3d: translate(0,0,0);
-}
-
-.coverlanding header h1 a:hover {
-    border-bottom: 3px solid rgba(255,255,255,.2);
-}
-
-.coverlanding header span {
-    color: #dedede;
-    opacity: .9;
-}
-
-.coverlanding header span a,.cover header span time {
-    font-weight: 600;
-    color: #fff;
-}
-
-@media screen and (max-width:595px) {
-    .coverlanding {
-        height: auto;
-        min-height: none;
-        padding: 40px 0;
-    }
-
-    .coverlanding header {
-        padding: 80px 0 20px;
-    }
-
-    .coverlanding header h1 a {
-        font: 700 1.2em Domine,Serif;
-        line-height: 22px;
-    }
-}
-
-@media screen and (max-height:640px) {
-    .coverlanding header {
-        top: 25%;
-    }
-}
-/* MIKE BRONFMAN END OF CUSTOM LANDING PAGE COVER*/
-
-
-
-
 
 @media screen and (max-width:595px) {
     .posts {
