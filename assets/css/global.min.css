@@ -1013,6 +1013,17 @@ nav.wrapper {
     color: #fff;
 }
 
+.cover .background-landing {
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: .6;
+    background-size: cover;
+    background-position: fixed;
+}
+
 @media screen and (max-width:595px) {
     .cover {
         height: auto;
