@@ -681,6 +681,20 @@ nav.wrapper {
 }
 
 .profile {
+    position: absolute;
+    top: 230px;
+}
+ 
+.profile p{
+    color: #EBEBEB;
+}
+ 
+.profile h4 {
+    margin: 15px 0;
+    color: #FFF;
+}
+
+.profile {
     position: fixed;
     width: 15%;
     right: 5%;
