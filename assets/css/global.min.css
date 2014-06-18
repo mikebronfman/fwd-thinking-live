@@ -236,6 +236,9 @@ em,strong {
 img {
     margin: 60px 0px -30px 0px;
     width: 100%;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px / 4px;
+    border-radius: 4px / 4px;
 }
 
 hr {
