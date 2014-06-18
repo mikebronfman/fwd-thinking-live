@@ -684,7 +684,7 @@ nav.wrapper {
     position: fixed;
     width: 15%;
     right: 5%;
-    top: 166px;
+    top: 192px;
     z-index: 400;
     -webkit-backface-visibility: hidden;
     -webkit-transition: all .3s ease-in-out;
