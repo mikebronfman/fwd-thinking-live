@@ -700,8 +700,8 @@ nav.wrapper {
 }
 
 .profile.featured .profileimage {
-    width: 65px;
-    height: 65px;
+    width: 85px;
+    height: 85px;
 }
 
 .profile.featured h4,.profile.featured p {
@@ -770,7 +770,7 @@ nav.wrapper {
     clear: both;
     font: 400 15px 'Open Sans',Serif;
     line-height: 28px;
-    max-height: 168px;
+    max-height: 192px;
     text-overflow: ellipsis;
     overflow: hidden;
 }
