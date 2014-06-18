@@ -2,7 +2,7 @@
 {{!< default}}
 
 <div class="cover post featured">
-    <div class="background" style="background-image: url(http://fwdthinking.co/assets/img/turbine-cover-banner.jpg);"></div>
+    <div class="background" style="background-image: url(http://fwdthinking.co/assets/img/turbine-cover-banner-mini.jpg);"></div>
 </div>
 
 <section class="posts postindex wrapper">
@@ -20,8 +20,8 @@
 	</article>
 	{{/foreach}}
 
-	{{pagination}}
-	<div class="postprofile">
+	{{#post}}
+		<div class="postprofile">
             <img src="{{author.image}}" class="author" alt="user">
             <div class="info">
                 <h4>{{author.name}}</h4>
@@ -34,10 +34,10 @@
                     {{! GOOGLE+ }}<li><a href="https://plus.google.com/u/1/+MikeBronfman/posts" class="googleplus" target="_blank"><i class="fa fa-google-plus"></i></a></li>
                     {{! INSTAGRAM }}<li><a href="http://instagram.com/djbronf" class="instagram" target="_blank"><i class="fa fa-instagram"></i></a></li>
                     <div class="createsend-button" style="height:27px;display:inline-block;" data-listid="d/8D/49A/82A/9C095512D5C84871">
-</div><script type="text/javascript">(function () { var e = document.createElement('script'); e.type = 'text/javascript'; e.async = true; e.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://btn.createsend1.com/js/sb.min.js?v=2'; e.className = 'createsend-script'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(e, s); })();</script>
+					</div><script type="text/javascript">(function () { var e = document.createElement('script'); e.type = 'text/javascript'; e.async = true; e.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://btn.createsend1.com/js/sb.min.js?v=2'; e.className = 'createsend-script'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(e, s); })();</script>
                 </ul>
             </div>
-        </div>
+   		</div>
+   	{{/post}}
 
-	
 </section>
